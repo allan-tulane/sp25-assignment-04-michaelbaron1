@@ -88,9 +88,12 @@ Floyd Marshal: o(|V^|^3)
 floyd approach is better for dense graphs with high E is or above V^2, else johnsons is 
 
 - **3a.**
-
+Yes it is guarenteed.a min spannig tree always mins the largest edge contained
+if MST wasnt a solution for MMET than their would be a MST with a smaller max edge. this would contradict
+what a MST is, giving proof by contradiction
 
 - **3b.**
-
+first start with normal MST and have total weight W and know which edges re in it. for edges e, find heaviest edge on unique paths in T. swapping that edge with e gives new tree weight W - Wpath + We. swap with smalles weight is greater than W aka the next best spaning tree
 
 - **3c.**
+can find each paths heaviest edge in o9logV) so the whole thing - after O(ElogV) MST - costs an aditional o(ElogV) time and O(V) extra space. 
