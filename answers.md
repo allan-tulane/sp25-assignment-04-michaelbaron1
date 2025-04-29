@@ -36,16 +36,18 @@ d = |E| / |V|
 
 
 - **2a.**
-
+vith k=0 weight = -2
+k=1 weight = 1
+k=2 weight = 2 
   starting at 0:
   APSP(0,0,0) = 0
   APSP(0,0,1) = 0
   APSP(0,0,2) = 0
-  APSP(0,1,0) = inf
+  APSP(0,1,0) = -2
   APSP(0,1,1) = -2
   APSP(0,1,2) = -2
   APSP(0,2,0) = inf 
-  APSP(0,2,1) = 1
+  APSP(0,2,1) = -1
   APSP(0,2,2) = -1
   
   starting at 1:
