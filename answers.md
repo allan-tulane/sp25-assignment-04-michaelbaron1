@@ -46,7 +46,7 @@ k=2 weight = 2
   APSP(0,1,0) = -2
   APSP(0,1,1) = -2
   APSP(0,1,2) = -2
-  APSP(0,2,0) = inf 
+  APSP(0,2,0) = 2
   APSP(0,2,1) = -1
   APSP(0,2,2) = -1
   
@@ -57,16 +57,16 @@ k=2 weight = 2
   APSP(1,1,0) = 0
   APSP(1,1,1,) = 0
   APSP(1,1,2) = 0
-  APSP(1,2,0) = inf 
-  APSP(1,2,1) = 1 
+  APSP(1,2,0) = 1
+  APSP(1,2,1) = 0 
   APSP(1,2,2) = 0
   
   starting at 2:
-  APSP(2,0,0) = inf 
+  APSP(2,0,0) = 2 
   APSP(2,0,1) = -1
   APSP(2,0,2) = -1
-  APSP(2,1,0) = inf 
-  APSP(2,1,1) = 1
+  APSP(2,1,0) = 1 
+  APSP(2,1,1) = 0
   APSP(2,1,2) = 0
   APSP(2,2,0) = 0
   APSP(2,2,1) = 0
